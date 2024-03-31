@@ -1,0 +1,26 @@
+FC = ifort
+
+Fsw = /QO2  /assume:buffered_io /heap-arrays:2000
+Lsw = 
+
+F1=test_SOLVERS
+F2=../src/SOLVERS
+F3=../src/utilites
+
+$(F1): $(F1).obj $(F2).obj  $(F3).obj
+	$(FC) $(F3).obj $(F2).obj  $(F1).obj -o $(F1) $(Lsw)
+
+$(F1).obj: $(F1).f90
+	$(FC) -c $(Fsw) $(F1).f90
+
+$(F2).obj: $(F2).f90
+	$(FC) -c $(Fsw) $(F2).f90 -o $(F2).obj
+
+$(F3).obj: $(F3).f90
+	$(FC) -c $(Fsw) $(F3).f90 -o $(F3).obj
+
+
+
+
+
+
