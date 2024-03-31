@@ -126,7 +126,7 @@ Similar problems are encountered when calculating the electromagnetic field crea
 Below is an image of the calculated field. $\vec{X}$ in the _XY_ plane and the field image for $\nabla \times \vec{X}$ in the _XZ_ plane for two cases:  
 for $\nabla \times \nabla \times \vec{X}=\vec{B}$ (on left) and for  $-\nabla^2  \vec{X}=\vec{B}$ (on right).  
 
-![fields for $\nabla \times \nabla \times \vec{X}= \vec{B}$ and fields for             $-\nabla^2 \vec{X}=\vec{B}$](../SOLVERS_BCGSTAB_GMRES/SOLVERS/img/XBR2.jpg)  
+![fields for $\nabla \times \nabla \times \vec{X}= \vec{B}$ and fields for             $-\nabla^2 \vec{X}=\vec{B}$](https://github.com/JNSresearcher/SOLVERS_BCGSTAB_GMRES/blob/main/SOLVERS/img/XBR2.jpg)  
 
 ![fields for $\nabla \times \nabla \times \vec{X}= \vec{B}$ and fields for             $-\nabla^2 \vec{X}=\vec{B}$](../SOLVERS/img/XBR2.jpg)  
 
