@@ -1,9 +1,9 @@
-&emsp; Some results of my research on the `BiConjugate Gradient STABilization` (BCGSTAB) method and  
+&emsp; Some results of my research on the `BiConjugate Gradient STABilization` (BiCGSTAB) method and  
 the `Generalized Minimum RESidual` Method (GMRES) for solving a linear system.
 
  &emsp;Fortran codes are based on published algorithms:  
  
-- the algorithm BCGSTAB is presented in Xianyi Zeng's lectures :  Algorithm 2.3 Lecture Note 7 
+- the algorithm BiCGSTAB is presented in Xianyi Zeng's lectures :  Algorithm 2.3 Lecture Note 7 
 <https://utminers.utep.edu/xzeng/2017spring_math5330/MATH_5330_Computational_Methods_of_Linear_Algebra_files/ln07.pdf>   
 - the algorithm GMRES is presented in Wikipedia (Matlab/Octave version): 
 <https://en.wikipedia.org/wiki/Generalized_minimal_residual_method>   
@@ -126,7 +126,7 @@ Similar problems are encountered when calculating the electromagnetic field crea
 Below is an image of the calculated field. $\vec{X}$ in the _XY_ plane and the field image for $\nabla \times \vec{X}$ in the _XZ_ plane for two cases:  
 for $\nabla \times \nabla \times \vec{X}=\vec{B}$ (on left) and for  $-\nabla^2  \vec{X}=\vec{B}$ (on right).  
 
-![fields for $\nabla \times \nabla \times \vec{X}= \vec{B}$ and fields for             $-\nabla^2 \vec{X}=\vec{B}$](https://github.com/JNSresearcher/SOLVERS_BCGSTAB_GMRES/blob/main/SOLVERS/img/XBR2.jpg)
+![fields for $\nabla \times \nabla \times \vec{X}= \vec{B}$ and fields for             $-\nabla^2 \vec{X}=\vec{B}$](../SOLVERS_BCGSTAB_GMRES/SOLVERS/img/XBR2.jpg)
 
 As on can see, the $\vec{X}$ fields are different. But the field for $\nabla \times \vec{X}$ is the same in both cases.  
 This field corresponds to the induction created by the current in the ring.
