@@ -26,5 +26,5 @@ in the format: $L(X) = B,$ where $L()$ is a linear operator corresponding to the
 This version uses a finite-difference approximation of the Laplace equation $L(X) = Laplacian(X)$ and  
 a finite-difference approximation of the equation $L(X) = grad(div(X)) - Laplacian(X)$ (this is equivalent to $L(X)=Curl(Curl(X))$  
 without using a matrix.  Alternatively, for the Laplacian, on can use a sparse matrix,  
-which is automatically generated to solve the equation $Ax=B.$.  
+which is automatically generated to solve the equation $Ax=B$.  
 &emsp; All files contain comments.
