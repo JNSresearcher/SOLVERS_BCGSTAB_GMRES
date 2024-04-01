@@ -1,5 +1,4 @@
-&emsp; Some results of my research on the `BiConjugate Gradient STABilization` (BiCGSTAB) method and  
-the `Generalized Minimum RESidual` Method (GMRES) for solving a linear system.
+The BiConjugate Gradient STABilization (BiCGSTAB) and Generalized Minimum RESidual (GMRES) methods for calculating linear sparse systems of equations are presented, and the application of these methods to the calculation of three-dimensional fields is shown.
 
  &emsp;Fortran codes are based on published algorithms:  
  
