@@ -127,7 +127,6 @@ for $\nabla \times \nabla \times \vec{X}=\vec{B}$ (on left) and for  $-\nabla^2 
 
 ![fields for $\nabla \times \nabla \times \vec{X}= \vec{B}$ and fields for             $-\nabla^2 \vec{X}=\vec{B}$](https://github.com/JNSresearcher/SOLVERS_BCGSTAB_GMRES/blob/main/SOLVERS/img/XBR2.jpg)  
 
-![fields for $\nabla \times \nabla \times \vec{X}= \vec{B}$ and fields for             $-\nabla^2 \vec{X}=\vec{B}$](../SOLVERS/img/XBR2.jpg)  
 
 As on can see, the $\vec{X}$ fields are different. But the field for $\nabla \times \vec{X}$ is the same in both cases.  
 This field corresponds to the induction created by the current in the ring.
